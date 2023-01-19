@@ -1,0 +1,89 @@
+*,*::before,*::after{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto',sans-serif;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+.nav{
+  background: #000;
+  color: #fff;
+  width: 100vw;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.nav .logo{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+
+.hero {
+  height: 600px;
+  width: 100vw;
+  background: #000;
+  background-image: url('./img/nasa-Q1p7bh3SHj8-unsplash.jpg');
+  background-position-y: -300px;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 4rem;
+  margin: 20px;
+}
+.header{
+  font-size: 3.5rem;
+}
+
+.contact .header {
+  margin-top: 20px;
+}
+
+.contact {
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.contact form {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1;
+  grid-template-rows: 3;
+}
+
+input,textarea{
+  width: 315px;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+}
+textarea{
+  height: 200px;
+}
+
+form div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form div input{
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.sender{
+  background: ;
+}
