@@ -82,6 +82,7 @@ form div input{
   width: 20px;
   height: 20px;
   padding: 0;
+  border-radius:0.5rem;
 }
 
 .sender{
@@ -89,7 +90,13 @@ form div input{
   height:40px;
   background:#3498db;
   border:none;
+  border-radius:0.5rem;
 }
-.logo-header{
+.logo-header h1{
    font-family: 'Aquire',sans-serif;
+}
+@media screen(max-width:700px){
+  .nav{
+    font-size:1.3rem;
+  }
 }
