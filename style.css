@@ -85,5 +85,11 @@ form div input{
 }
 
 .sender{
-  background: ;
+  width:200px;
+  height:40px;
+  background:#3498db;
+  border:none;
+}
+.logo-header{
+   font-family: 'Aquire',sans-serif;
 }
